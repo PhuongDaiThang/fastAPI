@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fad65cc-34d3-465b-b33b-8c193c996b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1_first_Steps/main1_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_first_Steps/openapi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_path_Parameters/Enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_path_Parameters/ModelName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_path_Parameters/Order_matters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_path_Parameters/main2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main2_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_query_Parameters/None.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_query_Parameters/bool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_query_Parameters/multiple_path&amp;query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_query_Parameters/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_query_Parameters/requiredQuery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_query_Parameters/three_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_request_Body/BaseModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_request_Body/path_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_request_Body/request_b_p_q.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_request_Body/same_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_request_Body/use_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1 First Steps/main1_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2 Path Parameters/Order_matters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_path_Parameters/Order_matters.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_path_Parameters/Order_matters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_path_Parameters/main2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_path_Parameters/main2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2_1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,15 +132,27 @@
       <workItem from="1721327327718" duration="2870000" />
       <workItem from="1721369186539" duration="6765000" />
       <workItem from="1721404777426" duration="1098000" />
+      <workItem from="1721459829724" duration="5974000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3_query_Parameters/query.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastAPI$main1_1.coverage" NAME="main1_1 Coverage Results" MODIFIED="1721327802712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fastAPI$main2_1.coverage" NAME="main2_1 Coverage Results" MODIFIED="1721375076111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_path_Parameters" />
-    <SUITE FILE_PATH="coverage/fastAPI$fastAPI.coverage" NAME="fastAPI Coverage Results" MODIFIED="1721375063313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fastAPI$fastAPI.coverage" NAME="fastAPI Coverage Results" MODIFIED="1721466232083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
