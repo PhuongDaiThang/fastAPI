@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fad65cc-34d3-465b-b33b-8c193c996b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Additional_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Advantages_of_Query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Alternative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Exclude_from_OpenAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Pydantic....py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Q_default_in_Annotated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/Recap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/add_More_Validations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/add_Q&amp;A_inthe_q.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/add_Regular_Expressions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/alias_Parameters¶.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/declare_More_metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/default_Values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/deprecating_Parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/list_multiple_values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/make_it_Required.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/required_With_Ellipsis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/required_with_None.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/use_Annotated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_queryParameters_&amp;_stringValidations/using_List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_path_Parameters_&amp;_numeric_Validations/Order....py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_path_Parameters_&amp;_numeric_Validations/declare_Metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_path_Parameters_&amp;_numeric_Validations/import_Path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_path_Parameters_&amp;_numeric_Validations/number_Validations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +124,7 @@
       <workItem from="1721459829724" duration="6816000" />
       <workItem from="1721527700822" duration="18000" />
       <workItem from="1721539111471" duration="2000" />
-      <workItem from="1721746851823" duration="7088000" />
+      <workItem from="1721746851823" duration="8030000" />
     </task>
     <servers />
   </component>
