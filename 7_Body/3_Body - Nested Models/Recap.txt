@@ -1,0 +1,14 @@
+Với FastAPI, bạn có được sự linh hoạt tối đa do các models Pydantic mang lại,
+trong khi vẫn giữ cho code của bạn đơn giản, ngắn gọn và tinh tế.
+
+Nhưng với tất cả những lợi ích:
+
+Editor support (hoàn thành ở mọi nơi!)
+
+Chuyển đổi dữ liệu (còn gọi là phân tích cú pháp/tuần tự hóa)
+
+Xác nhận dữ liệu
+
+Tài liệu lược đồ
+
+Tài liệu tự động

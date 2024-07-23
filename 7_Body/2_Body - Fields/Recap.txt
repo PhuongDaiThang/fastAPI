@@ -1,0 +1,4 @@
+Bạn có thể sử dụng Field của Pydantic để khai báo các validations và metadata
+bổ sung cho các thuộc tính model.
+
+Bạn cũng có thể sử dụng các đối số từ khóa bổ sung để chuyển siêu dữ liệu Lược đồ JSON bổ sung.

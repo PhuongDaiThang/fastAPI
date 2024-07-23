@@ -1,0 +1,5 @@
+Bạn có thể khai báo thông tin bổ sung trong Field, Query, Body, v.v.
+Và nó sẽ được đưa vào Lược đồ JSON được tạo.
+Các khóa bổ sung được chuyển đến Field cũng sẽ xuất hiện trong lược đồ OpenAPI thu được cho ứng dụng của bạn.
+Vì các khóa này có thể không nhất thiết phải là một phần của đặc tả OpenAPI nên một số công cụ OpenAPI,
+chẳng hạn như trình xác thực OpenAPI, có thể không hoạt động với lược đồ đã tạo của bạn.

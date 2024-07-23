@@ -1,0 +1,9 @@
+Bạn có thể thêm nhiều tham số body vào path operation function của bạn,
+mặc dù một yêu cầu chỉ có thể có một body duy nhất.
+
+Nhưng FastAPI sẽ xử lý nó, cung cấp cho bạn dữ liệu chính xác trong hàm của bạn,
+đồng thời xác thực và ghi lại lược đồ chính xác trong path operation.
+
+Bạn cũng có thể khai báo các giá trị số ít được nhận như một phần của phần thân.
+
+Và bạn có thể hướng dẫn FastAPI nhúng body vào một khóa ngay cả khi chỉ có một tham số duy nhất được khai báo.

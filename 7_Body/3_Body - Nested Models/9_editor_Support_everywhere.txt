@@ -1,0 +1,7 @@
+Và bạn nhận được sự hỗ trợ của editor ở mọi nơi.
+
+Ngay cả đối với các mục bên trong list:
+Bạn không thể nhận được loại hỗ trợ soạn thảo này nếu bạn đang làm việc trực tiếp với dict thay vì các mô hình Pydantic.
+
+Nhưng bạn cũng không phải lo lắng về chúng,
+các lệnh đến sẽ được chuyển đổi tự động và đầu ra của bạn cũng được tự động chuyển đổi thành JSON.
