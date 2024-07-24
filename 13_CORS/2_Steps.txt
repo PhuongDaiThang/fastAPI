@@ -1,0 +1,14 @@
+Giả sử bạn có một giao diện người dùng chạy trong trình duyệt của mình tại
+http://localhost:8080 và
+JavaScript của nó đang cố gắng giao tiếp với
+một chương trình phụ trợ chạy tại http://localhost
+(vì chúng tôi không chỉ định cổng, nên trình duyệt sẽ sẽ sử dụng cổng mặc định 80).
+
+Sau đó, trình duyệt sẽ gửi yêu cầu HTTP OPTIONS tới backend và
+nếu backend gửi các tiêu đề thích hợp cho phép giao tiếp từ
+nguồn gốc khác này (http://localhost:8080) thì trình duyệt sẽ cho phép JavaScript trong giao diện người dùng
+gửi nó. yêu cầu đến backend .
+
+Để đạt được điều này, backend phải có danh sách "allowed origins".
+
+Trong trường hợp này, nó sẽ phải bao gồm http://localhost:8080 để giao diện người dùng hoạt động chính xác.

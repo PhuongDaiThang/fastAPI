@@ -1,0 +1,12 @@
+
+Bởi vì chúng ta sử dụng SQLAlchemy trực tiếp và
+không cần bất kỳ loại plug-in nào để làm việc với FastAPI,
+chúng ta có thể tích hợp migrations cơ sở dữ liệu với Alembic trực tiếp.
+
+Và vì mã liên quan đến SQLAlchemy và các mô hình SQLAlchemy được đặt trong các tệp độc lập riêng biệt,
+bạn thậm chí có thể thực hiện migrations với Alembic mà không cần phải cài đặt FastAPI, Pydantic
+hoặc bất cứ thứ gì khác.
+
+Tương tự, bạn có thể sử dụng các mô hình và tiện ích SQLAlchemy trong các phần khác của mã không liên quan đến FastAPI.
+
+Ví dụ, trong một tác vụ nền có Celery, RQ, hoặc ARQ.

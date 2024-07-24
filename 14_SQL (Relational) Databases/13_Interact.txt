@@ -1,0 +1,1 @@
+sử dụng trình duyệt SQLite trực tuyến như SQLite Viewer hoặc ExtendsClass.

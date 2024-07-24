@@ -1,0 +1,14 @@
+Nguồn gốc là sự kết hợp của giao thức (http, https),
+tên miền (myapp.com, localhost, localhost.tiangolo.com)
+và cổng (80, 443, 8080).
+
+Vì vậy, tất cả những thứ này đều có nguồn gốc khác nhau:
+
+http://localhost
+
+https://localhost
+
+http://localhost:8080
+
+Ngay cả khi tất cả chúng đều ở localhost, chúng sử dụng các giao thức
+hoặc cổng khác nhau nên chúng có "origins" khác nhau.

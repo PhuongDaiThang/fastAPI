@@ -1,0 +1,7 @@
+$  uvicorn sql_app.main:app --reload
+
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+Sau đó, bạn có thể mở trình duyệt của mình tại http://127.0.0.1:8000/docs.
+
+Và bạn sẽ có thể tương tác với ứng dụng FastAPI của mình, đọc dữ liệu từ cơ sở dữ liệu thực:

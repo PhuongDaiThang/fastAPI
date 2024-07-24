@@ -1,0 +1,26 @@
+FastAPI có thể làm việc với bất kỳ cơ sở dữ liệu nào và bất kỳ thư viện nào để tương tác với cơ sở dữ liệu.
+
+Một mô hình phổ biến là sử dụng "ORM" (Object-Relational Mapping) - một thư viện ánh xạ đối tượng quan hệ.
+
+ORM có các công cụ để chuyển đổi (ánh xạ) giữa các đối tượng trong mã và các bảng cơ sở dữ liệu (quan hệ).
+
+Với ORM, bạn thường tạo một lớp đại diện cho một bảng trong cơ sở dữ liệu SQL, mỗi thuộc tính của lớp đại diện cho một cột, với tên và kiểu dữ liệu tương ứng.
+
+Ví dụ, một lớp Pet có thể đại diện cho bảng SQL pets.
+
+Và mỗi đối tượng instance của lớp đó đại diện cho một hàng trong cơ sở dữ liệu.
+
+Ví dụ, một đối tượng orion_cat (một instance của Pet) có thể có thuộc tính orion_cat.type, đại diện cho cột type. Giá trị của thuộc tính này có thể là "cat".
+
+Các ORM này cũng có các công cụ để tạo kết nối hoặc quan hệ giữa các bảng hoặc thực thể.
+
+Ví dụ, bạn có thể có một thuộc tính orion_cat.owner, chứa dữ liệu về chủ sở hữu của thú cưng này, lấy từ bảng owners.
+
+Vậy, orion_cat.owner.name có thể là tên (từ cột name trong bảng owners) của chủ sở hữu thú cưng này.
+
+Giá trị có thể là "Arquilian".
+
+ORM sẽ thực hiện tất cả các công việc để lấy thông tin từ bảng owners tương ứng khi bạn cố gắng truy cập từ đối tượng thú cưng của bạn.
+
+Các ORM phổ biến bao gồm: Django-ORM (một phần của framework Django), SQLAlchemy ORM (một phần của SQLAlchemy, độc lập với framework) và Peewee (độc lập với framework), trong số những ORM khác.
+

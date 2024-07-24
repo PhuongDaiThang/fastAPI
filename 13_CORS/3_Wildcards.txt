@@ -1,0 +1,7 @@
+Cũng có thể khai báo list là "*" ("ký tự đại diện") để nói rằng tất cả đều được phép.
+
+Nhưng điều đó sẽ chỉ cho phép một số loại giao tiếp nhất định,
+loại trừ mọi thứ liên quan đến thông tin xác thực: Cookie, Authorization headers ủy quyền giống như tiêu đề
+được sử dụng với Bearer Tokens, v.v.
+
+Vì vậy, để mọi thứ hoạt động chính xác, tốt hơn hết bạn nên chỉ định rõ ràng nguồn gốc allowed origins.

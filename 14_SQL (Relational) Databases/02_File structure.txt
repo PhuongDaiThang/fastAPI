@@ -1,0 +1,14 @@
+.
+└── sql_app
+    ├── __init__.py
+    ├── crud.py
+    ├── database.py
+    ├── main.py
+    ├── models.py
+    └── schemas.py
+
+
+    Tệp __init__.py chỉ là một tệp trống,
+    nhưng nó cho Python biết rằng sql_app với tất cả các mô-đun của nó (tệp Python) là một gói.
+
+    Install SQLAlchemy: pip install sqlalchemy
