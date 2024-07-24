@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fad65cc-34d3-465b-b33b-8c193c996b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/8_declare_Request_Example_Data/1_extra_JSON.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_declare_Request_Example_Data/2_Field_ additional_arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_declare_Request_Example_Data/3_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_declare_Request_Example_Data/4_Technical_Details.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_Extra_Data_Types/1_other_Data_types.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_cookie_Parameters/1_import_Cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_cookie_Parameters/2_declare_Cookie_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_header_Parameters/1_import Header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_header_Parameters/2_declare_Header_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_header_Parameters/3_automatic_Conversio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_header_Parameters/4_duplicate_Headers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +129,7 @@
       <workItem from="1721539111471" duration="2000" />
       <workItem from="1721746851823" duration="11976000" />
       <workItem from="1721788283496" duration="39000" />
-      <workItem from="1721793621333" duration="4027000" />
+      <workItem from="1721793621333" duration="5462000" />
     </task>
     <servers />
   </component>
