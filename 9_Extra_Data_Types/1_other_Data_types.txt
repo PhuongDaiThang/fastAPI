@@ -1,0 +1,55 @@
+Các kiểu dữ liệu phổ biến, như:
+
+int
+float
+str
+bool
+
+Nhưng bạn cũng có thể sử dụng các kiểu dữ liệu phức tạp hơn.
+
+Và bạn sẽ vẫn có các tính năng tương tự như đã thấy cho đến nay:
+
+Great editor support.
+Data conversion from incoming requests.
+Data conversion for response data.
+Data validation.
+Automatic annotation and documentation.
+
+Một số loại dữ liệu bổ sung mà bạn có thể sử dụng:
+
+*UUID:
+Một "Mã định danh duy nhất toàn cầu" tiêu chuẩn, phổ biến dưới dạng ID trong nhiều cơ sở dữ liệu và hệ thống.
+Trong các yêu cầu và phản hồi sẽ được biểu diễn dưới dạng str.
+
+*datetime.datetime:
+Một datetime.datetime của Python.
+Trong các yêu cầu và phản hồi sẽ được biểu diễn dưới dạng str ở định dạng ISO 8601, như: 2008-09-15T15:53:00+05:00.
+
+*datetime.date:
+Python datetime.date.
+Trong các yêu cầu và phản hồi sẽ được biểu diễn dưới dạng str ở định dạng ISO 8601, như: 2008-09-15.
+
+*datetime.time:
+Một datetime.time của Python.
+Trong các yêu cầu và phản hồi sẽ được biểu diễn dưới dạng str ở định dạng ISO 8601, như: 14:23:55.003.
+
+*datetime.timedelta:
+Một datetime.timedelta của Python.
+Trong các yêu cầu và phản hồi sẽ được biểu diễn dưới dạng tổng số giây.
+Pydantic cũng cho phép biểu diễn nó dưới dạng "mã hóa khác biệt thời gian ISO 8601"
+
+*frozenset:
+Trong các yêu cầu và phản hồi, được xử lý giống như một tập hợp:
+Trong các yêu cầu, một danh sách sẽ được đọc, loại bỏ các bản sao và chuyển nó thành một tập hợp.
+Trong phản hồi, tập hợp sẽ được chuyển đổi thành một danh sách.
+Lược đồ được tạo sẽ chỉ định rằng các giá trị được đặt là duy nhất (sử dụng các mục duy nhất của Lược đồ JSON).
+
+*byte:
+Byte Python tiêu chuẩn.
+Trong các yêu cầu và phản hồi sẽ được coi là str.
+Lược đồ được tạo sẽ chỉ định rằng đó là một str có "định dạng" nhị phân.
+
+*Decimal
+Số thập phân Python tiêu chuẩn.
+Trong các yêu cầu và phản hồi, được xử lý giống như một float.
+Bạn có thể kiểm tra tất cả các kiểu dữ liệu pydantic hợp lệ tại đây: Kiểu dữ liệu Pydantic

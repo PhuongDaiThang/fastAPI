@@ -1,0 +1,47 @@
+OpenAPI cũng đã thêm example and examples fields vào các phần khác của đặc tả:
+
+Đối tượng tham số (trong thông số kỹ thuật) đã được FastAPI sử dụng:
+
+Path()
+Query()
+Header()
+Cookie()
+
+Đối tượng nội dung yêu cầu, trong field content, trên Media Type Object (trong thông số kỹ thuật) đã được FastAPI sử dụng:
+
+Body()
+File()
+Form()
+
+1_ JSON Schema's examples field:
+Nhưng sau đó Lược đồ JSON đã thêm examples field vào phiên bản mới của thông số kỹ thuật.
+
+Và sau đó, OpenAPI 3.1.0 mới dựa trên phiên bản mới nhất (JSON Schema 2020-12) bao gồm field examples.
+
+Và hiện tại, examples field mới này được ưu tiên hơn  example field (và tùy chỉnh) cũ, hiện không được dùng nữa.
+
+Examples field mới này trong Lược đồ JSON chỉ là một list of examples,, không phải là một lệnh có siêu dữ liệu bổ sung như ở các vị trí khác trong OpenAPI (được mô tả ở trên).
+
+2_ Pydantic and FastAPI examples:
+Khi bạn thêm examples bên trong mô hình Pydantic,
+việc sử dụng lược đồ_extra hoặc Field(examples=["something"])
+ví dụ đó sẽ được thêm vào Lược đồ JSON cho mô hình Pydantic đó.
+
+Và Lược đồ JSON của mô hình Pydantic được bao gồm trong OpenAPI của API của bạn,
+sau đó được sử dụng trong giao diện người dùng tài liệu.
+
+Trong các phiên bản FastAPI trước 0.99.0 (0.99.0 trở lên, hãy sử dụng OpenAPI 3.1.0 mới hơn)
+khi bạn sử dụng example hoặc examples với bất kỳ tiện ích nào khác (Query(), Body(), v.v.)
+thì ẽamples đó không được thêm vào Lược đồ JSON mô tả dữ liệu đó (thậm chí không phải phiên bản Lược đồ JSON của OpenAPI),
+chúng được thêm trực tiếp vào khai báo hoạt động đường dẫn trong OpenAPI (bên ngoài các phần của OpenAPI sử dụng Lược đồ JSON).
+
+Nhưng giờ đây FastAPI 0.99.0 trở lên sử dụng OpenAPI 3.1.0,
+sử dụng Lược đồ JSON 2020-12 và Swagger UI 5.0.0 trở lên,
+ mọi thứ đều nhất quán hơn và các ví dụ đều được đưa vào Lược đồ JSON.
+
+3_ Swagger UI and OpenAPI-specific examples:
+Hiện tại, vì giao diện người dùng Swagger không hỗ trợ examples về Lược đồ JSON (kể từ ngày 26/08/2023)
+nên người dùng không có cách nào để hiển thị examples trong tài liệu.
+
+Để giải quyết vấn đề đó, FastAPI 0.103.0 đã thêm hỗ trợ khai báo examples field cũ dành riêng cho OpenAPI với tham số mới openapi_examples
+
