@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fad65cc-34d3-465b-b33b-8c193c996b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/12_Middleware/1_Create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_CORS/1_Orgin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_CORS/2_Steps.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_CORS/3_Wildcards.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_CORS/4_Use CORSMiddleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/01_ORMs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/02_File structure.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/03_Create the SQLAlchemy parts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/04_Create the database models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/05_Create the Pydantic models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/06_Create_Pydantic_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/07_use_Pydantic's_orm_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/08_CRUD utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/09_Main_FastAPI_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/10_Migrations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/11_Review all the files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/12_Check it .txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/13_Interact.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_SQL (Relational) Databases/14_Alternative DB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +126,9 @@
       <workItem from="1721788283496" duration="39000" />
       <workItem from="1721793621333" duration="5603000" />
       <workItem from="1721813872335" duration="4244000" />
-      <workItem from="1721818379690" duration="1250000" />
+      <workItem from="1721818379690" duration="1499000" />
+      <workItem from="1721830342861" duration="3000" />
+      <workItem from="1721885623234" duration="2634000" />
     </task>
     <servers />
   </component>
