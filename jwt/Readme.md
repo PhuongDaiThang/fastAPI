@@ -29,7 +29,7 @@ Cấu trúc được hiểu đơn giản như sau:
 pip install pyjwt fastapi fastapi-jwt-auth
 ```
 ## Cách sử dụng
-### Cấu trúc của JWT
+### Cấu trúc của JWT: header.payload.signature
 JWT bao gồm ba phần chính:
 
 - Header: Header bao gồm hai phần chính: loại token ( cho biết đây là một Token JWT) và thuật toán mã hóa được sử dụng (HMAC SHA256 (HS256) hoặc RSA).
