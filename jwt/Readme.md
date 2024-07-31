@@ -35,10 +35,10 @@ JWT bao gồm ba phần chính:
 - Header: Header bao gồm hai phần chính: loại token ( cho biết đây là một Token JWT) và thuật toán mã hóa được sử dụng (HMAC SHA256 (HS256) hoặc RSA).
 
 - Payload: Là phần thứ 2 của token, chứa các claims, thường gặp: 
-- - Registered claims: cung cấp thông tin hữu ích và tương thích. Ví dụ: iss (người phát hành), exp (thời gian hết hạn), sub (đối tượng), aud (khán giả), v.v.
-- - Public claims: Được định nghĩa tùy ý. Nhưng nên đăng kí trong IANA JSON Web Token Registry hoặc sử dụng URI để tránh xung đột tên.
-- - Private claims: Các claims tùy chỉnh được tạo ra để chia sẻ thông tin giữa các bên đã thỏa thuận sử dụng chúng, không thuộc loại registered hoặc public claims.
-- -Ví dụ về Payload: 
+  - Registered claims: cung cấp thông tin hữu ích và tương thích. Ví dụ: iss (người phát hành), exp (thời gian hết hạn), sub (đối tượng), aud (khán giả), v.v.
+  - Public claims: Được định nghĩa tùy ý. Nhưng nên đăng kí trong IANA JSON Web Token Registry hoặc sử dụng URI để tránh xung đột tên.
+  - Private claims: Các claims tùy chỉnh được tạo ra để chia sẻ thông tin giữa các bên đã thỏa thuận sử dụng chúng, không thuộc loại registered hoặc public claims.
+  - Ví dụ về Payload: 
 ````
 {
   "sub": "1234567890",
@@ -47,11 +47,11 @@ JWT bao gồm ba phần chính:
 }
 ````
 - Signature là phần cuối cùng của JWT, được tạo ra để xác thực rằng token không bị thay đổi và (trong trường hợp token được ký bằng khóa riêng) xác nhận danh tính của người gửi.
-- - Để tạo chữ ký:
+  - Để tạo chữ ký:
 
-- - - Kết hợp header và payload đã được mã hóa bằng Base64Url, cách nhau bằng dấu chấm.
-- - - Sử dụng thuật toán và khóa bí mật để ký chuỗi kết hợp này.
-- - Ví dụ với thuật toán HMAC SHA256:
+    - Kết hợp header và payload đã được mã hóa bằng Base64Url, cách nhau bằng dấu chấm.
+    - Sử dụng thuật toán và khóa bí mật để ký chuỗi kết hợp này.
+  - Ví dụ với thuật toán HMAC SHA256:
 
 ````
 HMACSHA256(
